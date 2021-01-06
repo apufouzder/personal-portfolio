@@ -13,15 +13,16 @@ h1,h2,h3,h4,h5,h6{
 h2{
     font-size: 48px;
 }
-p{
+p,span{
     font-family: 'Roboto', sans-serif;
+    line-height: 24px;
 }
 .name-highlight{
     color: #FF8367;
 }
 .link-btn {
     text-decoration: none;
-    background: linear-gradient(45deg, #ff2d80, #f56360);
+    background: linear-gradient(45deg, #ff2d80, #f59c60);
     padding: 10px 30px;
     border-radius: 5px;
     color: white;
@@ -29,8 +30,28 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
+
+
+.navbar {
+    float: left;
+    width: 93%;
+}
+.navbar ul {
+    float: right;
+}
+.navbar li {
+    float: left;
+    list-style: none;
+    padding: 30px 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #3C3C3C;
+    font-weight: 500;
+}
+
 
 .half-width{
     width: 40%;
@@ -54,4 +75,144 @@ section{
 
 .project-section{
     background-color: #f8f9fc;
+    padding-bottom: 15%;
+}
+.project-wrapper{
+    width: 80%;
+    margin: auto;
+}
+.project-wrapper h1 {
+    padding: 8% 0;
+    font-size: 48px;
+    text-align: center;
+}
+.project-item{
+    width: 27%;
+    float: left;
+    margin-right: 2%;
+    background: #FFFFFF;
+    box-shadow: 5px 5px 18px #d5dcdc;
+    border-radius: 15px;
+    padding: 2%;
+}
+.project-item img{
+    width: 100%;
+}
+.project-item h3 {
+    font-size: 23px;
+    text-align: center;
+    padding: 7% 0;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+
+
+
+section.inquiry-section {
+    height: 1%;
+}
+.images {
+    width: 60%;
+    margin: auto;
+    background-image: url("images/inquiry.png");
+    background-repeat: no-repeat;
+    height: 203px;
+    background-size: contain;
+    margin-top: 7%;
+}
+
+.images img {
+    width: 100%;
+}
+h2#inquiry {
+    color: white;
+    font-weight: 400;
+}
+
+.Sitem {
+    width: 68%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 9%;
+}
+
+.Sitem1 {
+    width: 18%;
+    float: left;
+    margin-top: 12%;
+}
+
+
+section.service-section {
+    padding-bottom: 116px;
+}
+.service-wrapper{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.service-item{
+    float: left;
+    height: 278px;
+    width: 25%;
+    background-color: white;
+    margin-right: 1%;
+    padding: 2%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px#d5dcdc;
+}
+.service-wrapper h1 {
+    font-size: 48px;
+    padding-bottom: 2%;
+}
+p.service-info {
+    width: 65%;
+    margin: auto;
+    padding-bottom: 5%;
+    font-family: 'Roboto';
+}
+.service-item h3 {
+    font-size: 26px;
+    font-weight: 400;
+    padding-bottom: 5%;
+}
+
+
+
+
+section.contact-section {
+    height: 144px;
+}
+.contact-wrapper {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.contact-icon img {
+    width: 38px;
+    padding: 13px 12px;
+}
+.contact-wrapper p {
+    font-size: 31px;
+    font-weight: 600;
+    color: #363958;
+    padding: 1% 0;
+}
+.contact-wrapper span {
+    font-size: 18px;
+    color: #696871;
+}
+
+
+
+footer{
+    border-top: 1px solid #c5c5c5;
+    padding: 1%;
+}
+footer p{
+    text-align: center;
+    font-family: 'Roboto';
+    color: #505050;
 }
